@@ -1,11 +1,11 @@
-from AnonXMusic import app
+from SarkarXMusic import app
 from pyrogram.errors import RPCError, UserAlreadyParticipant, ChatAdminRequired, InviteRequestSent, UserNotParticipant
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton, Message, ChatJoinRequest
 from pyrogram import Client, filters, enums
 from pyrogram.enums import ParseMode, ChatMemberStatus
 from logging import getLogger
-from AnonXMusic.utils.database import add_served_chat, get_assistant, is_active_chat
-from AnonXMusic.misc import SUDOERS
+from SarkarXMusic.utils.database import add_served_chat, get_assistant, is_active_chat
+from SarkarXMusic.misc import SUDOERS
 import asyncio
 import random
 import os
@@ -90,11 +90,14 @@ async def greet_new_member(_, member: ChatMemberUpdated):
     
     try:
         # Welcome message
-        welcome_message = f"🤍𝗛꯭ᴀ꯭ʀ꯭ʜ꯭ᴀ꯭ʀ꯭ 𝛭꯭ᴀ꯭ʜ꯭ᴀ꯭ᴅ꯭ᴇ꯭ᴠ꯭🤍 {user.mention}, 🤍𝗪꯭ᴇ꯭ʟ꯭ᴄ꯭ᴏ꯭ᴍ꯭ᴇ꯭᪳🤍 {member.chat.title}!\n\n🤍𝗗꯭ᴍ꯭ 𝗡꯭ᴀ꯭ 𝗞꯭ᴀ꯭ʀ꯭ᴇ꯭🤍\n\n🤍𝗗꯭ᴏ꯭ɴ꯭'ᴛ꯭ 𝗦꯭ᴇ꯭ɴ꯭ᴅ꯭  𝛥꯭ᴅ꯭ᴜ꯭ʟ꯭ᴛ꯭ 𝗦꯭ᴛ꯭ᴀ꯭ғ꯭ғ꯭🤍\n\n🤍𝗙꯭ɪ꯭ɢ꯭ʜ꯭ᴛ꯭ɪ꯭ɴ꯭ɢ꯭ 𝗗꯭ᴍ꯭ 𝗡꯭ᴏ꯭ᴛ꯭ 𝛥꯭ʟ꯭ʟ꯭ᴏ꯭ᴡ꯭ᴇ꯭ᴅ꯭🤍\n\n🤍𝗣꯭ʟ꯭ᴇ꯭ᴀ꯭ꜱ꯭ᴇ꯭ Rᴇ꯭ꜱ꯭ᴘ꯭ᴇ꯭ᴄ꯭ᴛ꯭ 𝛯꯭ᴠ꯭ᴇ꯭ʀ꯭ʏ꯭ᴏ꯭ɴ꯭ᴇ꯭🤍\n\n🤍𝛭꯭ᴜ꯭ᴛ꯭ᴇ꯭/ʙ꯭ᴀ꯭ɴ꯭ 𝛥꯭ʙ꯭ᴜ꯭ꜱ꯭ᴇ꯭=🤍\n\n \ • 🤍𝛥꯭ᴀ꯭ᴏ꯭ 𝗧꯭ᴏ꯭🤍᪳𝛭꯭ᴏ꯭ꜱ꯭ᴛ꯭ 𝗪꯭ᴇ꯭ʟ꯭ᴄ꯭ᴏ꯭ᴍ꯭ᴇ꯭🤍\n\n🤍𝗝꯭ᴀ꯭ᴏ꯭ 𝗧꯭ᴏ꯭🤍𝗕꯭ʜ꯭ᴇ꯭ᴇ꯭ᴅ꯭ 𝗞꯭ᴀ꯭ᴍ꯭🤍᪳!\n\────────────────────\n" \fᴛ ᴏ ᴛ ᴀ ʟ ᴍ ᴇ ᴍ ʙ ᴇ ʀ: {count}\n \n────────────────────**"
+        welcome_message = f"𝙃ᴇʏ 𝘽ᴀʙʏ {user.mention}, 𝙒єℓ¢σмє❤️‍🔥 {member.chat.title}!\n\n" \
+                          "────────────────────\n" \
+                          f"𝘼ℓℓ 𝙈ємвєя : {count}\n" \
+                          "────────────────────**"
         
-        # Creating an inline button to "Join 👋" with the link
+        # Creating an inline button to "❍ 𝙅𝙊𝙄𝙉 ❍" with the link
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Join 👋", url="https://t.me/+olg0fMkm9VQ3NzY9")]]
+            [[InlineKeyboardButton("❍ 𝙅𝙊𝙄𝙉 ❍", url="https://t.me/+olg0fMkm9VQ3NzY9")]]
         )
 
         # Send the welcome message with the inline button
