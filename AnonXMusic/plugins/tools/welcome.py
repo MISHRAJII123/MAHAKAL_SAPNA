@@ -1,11 +1,11 @@
-from SarkarXMusic import app
+from AnonXMusic import app
 from pyrogram.errors import RPCError, UserAlreadyParticipant, ChatAdminRequired, InviteRequestSent, UserNotParticipant
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton, Message, ChatJoinRequest
 from pyrogram import Client, filters, enums
 from pyrogram.enums import ParseMode, ChatMemberStatus
 from logging import getLogger
-from SarkarXMusic.utils.database import add_served_chat, get_assistant, is_active_chat
-from SarkarXMusic.misc import SUDOERS
+from AnonXMusic.utils.database import add_served_chat, get_assistant, is_active_chat
+from AnonXMusic.misc import SUDOERS
 import asyncio
 import random
 import os
