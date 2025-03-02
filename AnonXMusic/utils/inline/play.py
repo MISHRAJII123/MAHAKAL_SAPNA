@@ -61,7 +61,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𓆰⎯꯭꯭֯‌𝛩꯭ᴡ꯭ɴ꯭ᴇ꯭ʀ꯭𓂃ֶꪳ 𓆩〭〬🔥𓆪ꪾ", url="https://t.me/MahakalkiDhiwana"
+                text="𓆰⎯꯭꯭֯‌𝛩꯭ᴡ꯭ɴ꯭ᴇ꯭ʀ꯭𓂃ֶꪳ 𓆩〭〬🔥𓆪ꪾ", url="https://t.me/MahakalKaBhakt01"
             ),
             InlineKeyboardButton(
                 text="𓆰𓏲𝗦꯭ᴜ꯭ᴘ꯭ᴘ꯭ᴏ꯭ʀ꯭ᴛ꯭𓂃ֶꪳ 𓆩〭〬🦋𓆪ꪾ", url="https://t.me/+olg0fMkm9VQ3NzY9"
