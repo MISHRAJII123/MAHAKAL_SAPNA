@@ -61,15 +61,15 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𓆰⎯꯭꯭֯‌𝛩꯭ᴡ꯭ɴ꯭ᴇ꯭ʀ꯭𓂃ֶꪳ 𓆩〭〬🔥𓆪ꪾ", url="https://t.me/MahakalKaBhakt01"
+                text="𓆰⎯꯭꯭֯‌𝛩꯭ᴡ꯭ɴ꯭ᴇ꯭ʀ꯭𓂃ֶꪳ 𓆩〭〬🔥𓆪ꪾ", url="https://t.me/MUNNA_KING_0"
             ),
             InlineKeyboardButton(
-                text="𓆰𓏲𝗦꯭ᴜ꯭ᴘ꯭ᴘ꯭ᴏ꯭ʀ꯭ᴛ꯭𓂃ֶꪳ 𓆩〭〬🦋𓆪ꪾ", url="https://t.me/+olg0fMkm9VQ3NzY9"
+                text="𓆰𓏲𝗦꯭ᴜ꯭ᴘ꯭ᴘ꯭ᴏ꯭ʀ꯭ᴛ꯭𓂃ֶꪳ 𓆩〭〬🦋𓆪ꪾ", url="https://t.me/RADHIKA_MUSIC_NETWORK"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝗣ʀᴏᴍᴏᴛɪᴏɴ 𝗔ᴠᴀɪʟᴀʙʟᴇ❱", url="https://t.me/PROMOTION_UPDATE/17"
+                text="❰𝗣ʀᴏᴍᴏᴛɪᴏɴ 𝗔ᴠᴀɪʟᴀʙʟᴇ❱", url="https://t.me/RADHIKA_MUSIC_NETWORK"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -88,10 +88,10 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯𝐁𝐀𝐁𝐔✯", url="https://t.me/ll_SARKAR_OWNER_ll",
+                text="✯𝐁𝐀𝐁𝐔✯", url="https://t.me/MUNNA_KING_0",
             ),
             InlineKeyboardButton(
-                text="✯𝐒𝐎𝐍𝐀✯", url="https://t.me/TG_NAME_STYLE",
+                text="✯𝐒𝐎𝐍𝐀✯", url="https://t.me/RADHIKA_MUSIC_NETWORK",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
